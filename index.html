@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+  <aside class="left-aside"></aside>
+    <aside class="right-aside"></aside>
+  <div class="container">
+    <h1>🥎🏑⚽🏏🏀Tournament Scheduler🏀🏏⚽🏑🥎</h1>
+    <p>Select the Starting Date of the tournament</p>
+    <input type="date" id="startDate"  placeholder="sdsd"/>
+    <div class="input-container">
+      <p>Enter Tournament Name and enter team one by one(Max 6 Teams)</p>
+      
+
+      <input type="text" id="tourName" placeholder="Tournament Name">  
+         
+    </div>
+    <form action="/addTeam" method="POST">
+    <input type="text" id="teams" placeholder="Enter Team Name"> 
+  </form>
+    <button onclick="add()"  >Click To Add</button>
+    <button onclick="schedule()"  >Generate Schedule</button>
+    <p id="disp"></p>
+    <h1 id="res1"></h1>
+    
+    <div id="input-container2">
+      
+      </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>

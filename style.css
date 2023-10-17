@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+  .input-container {
+    margin-right: 10px;
+
+  }
+  input{
+    content: attr(placeholder);
+    width: 200px;
+    height:30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+  }
+  
+
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin:20px;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+  #disp{
+    color:green;
+    font-weight: bold;
+  }
+  .my-element {
+    background-color: lightblue;
+    border:1px solid black;
+    margin: 2px;
+    width: 1000px;
+    margin-bottom: 5px;
+}
+#teams{
+    margin: 20px;
+}
+aside.left-aside {
+  background-color:#007BFF;
+  width: 10%; 
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+aside.right-aside {
+  background-color: #007BFF;
+  width: 10%; 
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: -1;
+}
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+      
